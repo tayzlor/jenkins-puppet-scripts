@@ -1,8 +1,7 @@
 # Warnings Plugin;
 # You can use the following regex and groovy for the warnings plugin.
-# This regular expresion catch the rspec test errors (A test error should
-# make your jenkins job fails) so you should enable the "Run always" 
-# setting in the "Scan for compiler warnings" of your job.
+# This regular expresion catch the rspec test errors (A test error should make your jenkins job fails).
+# So you should enable the "Run always" setting in the "Scan for compiler warnings" of your job in order to have the plugin working.
 
 __Regular Expression:__
 
